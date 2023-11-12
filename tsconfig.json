@@ -4,7 +4,6 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
@@ -18,10 +17,22 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",
     "paths": {
-      "@portfolio/*": ["./src/*"]
-    }
+      "@portfolio/components/*": ["src/app/components/*"],
+      "@portfolio/lib/*": ["src/app/lib/*"],
+      "@portfolio/services/*": ["src/services/*"],
+      "@portfolio/types/*": ["src/app/types/*"],
+      "@portfolio/styles/*": ["src/app/styles/*"]
+    },
+    "strict": false
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "prettier.config.js"
+  ],
   "exclude": ["node_modules"]
 }
