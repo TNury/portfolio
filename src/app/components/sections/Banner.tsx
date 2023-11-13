@@ -1,14 +1,14 @@
 import Image from 'next/image';
 
-import { Section } from '@portfolio/components/ui/Section';
 import { Button } from '@portfolio/components/ui/Button';
+import { Section } from '@portfolio/components/ui/Section';
 
 export const Banner = () => {
   return (
-    <Section>
+    <Section className='relative flex min-h-screen items-center justify-center overflow-hidden '>
       <div className='flex flex-col gap-8'>
         <p className='text-lg text-text-1'>Olá, meu nome é</p>
-        <h1 className='text-5xl text-text-2'>Yuri Souza.</h1>
+        <h1 className='text-5xl font-bold text-text-2'>Yuri Souza.</h1>
         <p className='text-lg text-text-1'>
           Sou um Engenheiro de Software apaixonado por criar experiências
           digitais envolventes e funcionais.
