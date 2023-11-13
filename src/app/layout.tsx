@@ -1,9 +1,7 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 
 import '@portfolio/styles/globals.css';
-
-const inter = Inter({ subsets: ['latin'] });
+import { GeistMono } from 'geist/font/mono';
 
 export const metadata: Metadata = {
   title: 'Yuri Souza',
@@ -17,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={inter.className}>{children}</body>
+      <body className={GeistMono.className}>{children}</body>
     </html>
   );
 }
