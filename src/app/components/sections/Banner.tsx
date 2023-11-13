@@ -1,10 +1,11 @@
 import Image from 'next/image';
 
+import { Section } from '@portfolio/components/ui/Section';
 import { Button } from '@portfolio/components/ui/Button';
 
 export const Banner = () => {
   return (
-    <section className='relative flex min-h-screen items-center justify-center overflow-hidden px-4 py-28'>
+    <Section>
       <div className='flex flex-col gap-8'>
         <p className='text-lg text-text-1'>Olá, meu nome é</p>
         <h1 className='text-5xl text-text-2'>Yuri Souza.</h1>
@@ -20,6 +21,6 @@ export const Banner = () => {
       <div className='absolute left-0 -z-10 h-[90vh] w-[90vh]'>
         <Image alt='react_icon' src='assets/media/svg/react_icon.svg' fill />
       </div>
-    </section>
+    </Section>
   );
 };
