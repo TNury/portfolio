@@ -19,6 +19,7 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@portfolio/icons/*": ["src/app/components/ui/icons/*"],
       "@portfolio/components/*": ["src/app/components/*"],
       "@portfolio/lib/*": ["src/app/lib/*"],
       "@portfolio/services/*": ["src/services/*"],

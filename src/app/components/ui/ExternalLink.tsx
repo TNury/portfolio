@@ -1,6 +1,6 @@
-import { cn } from '@portfolio/lib/lib';
+import { ExternalLinkIcon } from '@portfolio/icons/ExternalLinkIcon';
 
-import { ExternalLinkIcon } from './icons/ExternalLinkIcon';
+import { cn } from '@portfolio/lib/lib';
 
 type ExternalLinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement>;
 

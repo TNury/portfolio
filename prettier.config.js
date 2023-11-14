@@ -18,6 +18,7 @@ module.exports = {
     '<THIRD_PARTY_MODULES>',
     '^clsx$',
     '^@portfolio/services',
+    '^@portfolio/icons',
     '^@portfolio/components',
     '^@portfolio/actions',
     '^@portfolio/lib',

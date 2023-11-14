@@ -34,7 +34,7 @@ export const WhatIDo = () => {
             className='h-auto w-[150px]'
           />
           <Image
-            src='assets/media/svg/phone.svg'
+            src='assets/media/svg/smartphone.svg'
             alt='phone_icon'
             width={175}
             height={367}

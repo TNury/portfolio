@@ -15,7 +15,7 @@ export const ProjectBox: React.FC<ProjectBoxProps> = ({ projectProps }) => {
       <h3 className='text-3xl font-bold text-text-2'>{projectProps.name}</h3>
       <div className='flex w-full flex-col items-center gap-16'>
         <Image
-          src='assets/media/svg/phone.svg'
+          src='assets/media/svg/smartphone.svg'
           alt='project_icon'
           width={250}
           height={520}
