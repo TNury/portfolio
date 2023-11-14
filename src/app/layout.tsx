@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 
-import '@portfolio/styles/globals.css';
 import { GeistMono } from 'geist/font/mono';
+
+import { Footer } from '@portfolio/components/layout/Footer';
+
+import '@portfolio/styles/globals.css';
 
 export const metadata: Metadata = {
   title: 'Yuri Souza',
@@ -15,7 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={GeistMono.className}>{children}</body>
+      <body className={GeistMono.className}>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
