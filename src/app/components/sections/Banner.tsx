@@ -18,7 +18,7 @@ export const Banner = () => {
           <Button variant='secondary'>Mais sobre mim.</Button>
         </div>
       </div>
-      <div className='absolute left-0 -z-10 h-[90vh] w-[90vh]'>
+      <div className='absolute left-0 -z-10 h-[90vh] w-[90vh] animate-spin-slow'>
         <Image alt='react_icon' src='assets/media/svg/react_icon.svg' fill />
       </div>
     </Section>

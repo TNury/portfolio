@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss';
 
+
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -43,7 +44,10 @@ const config: Config = {
     },
     borderWidth: {
       DEFAULT: '1.5px',
-      2: '3px'
+      2: '3px',
+    },
+    animation: {
+      'spin-slow': 'spin 120s linear infinite',
     },
   },
   plugins: [],
