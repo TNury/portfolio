@@ -38,9 +38,16 @@ export const ProjectBox: React.FC<ProjectBoxProps> = ({
         <Image
           src='assets/media/svg/laptop.svg'
           alt='project_icon'
-          width={500}
-          height={600}
-          className='hidden h-auto w-full md:block'
+          width={650}
+          height={450}
+          className='hidden h-auto w-full md:block lg:hidden'
+        />
+        <Image
+          src='assets/media/svg/desktop.svg'
+          alt='project_icon'
+          width={650}
+          height={450}
+          className='hidden h-auto w-full lg:block'
         />
         <div
           data-is-even={parity === 'even'}
