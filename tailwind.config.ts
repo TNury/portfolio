@@ -1,6 +1,5 @@
 import type { Config } from 'tailwindcss';
 
-
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,12 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: '0px',
+        sm: '768px',
+        md: '1024px',
+        lg: '1440px',
+        xl: '1920px',
+      },
       fontSize: {
         xs: ['0.625rem', '150%'], // 10px
         sm: ['0.875rem', '150%'], // 14px
         base: ['1rem', '150%'], // 16px
         lg: ['1.125rem', '150%'], // 18px
-        'xl': ['1.25rem', '150%'], // 20px
+        xl: ['1.25rem', '150%'], // 20px
 
         'xl-header': ['1.25rem', '140%'], // 20px, used as h6
         '2xl': ['1.5rem', '140%'], // 24px
