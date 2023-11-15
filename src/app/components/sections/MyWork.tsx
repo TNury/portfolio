@@ -23,7 +23,7 @@ const staticProjects: ProjectProps[] = [
 export const MyWork = () => {
   return (
     <Section className='flex flex-col gap-20'>
-      <h2 className='text-4xl font-bold text-text-2'>Coisas que construí.</h2>
+      <h2 className='text-4xl font-bold text-text-2 sm:text-5xl'>Coisas que construí.</h2>
       <div className='flex flex-col gap-28'>
         {staticProjects.map((project, index) => (
           <ProjectBox key={index} projectProps={project} />
