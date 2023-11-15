@@ -16,7 +16,7 @@ export const Technology: React.FC<TechnologyProps> = ({ name, className }) => {
         width={24}
         height={24}
       />
-      <p className='text-base text-text-1'>{name}</p>
+      <p className='text-base text-text-1 sm:text-lg'>{name}</p>
     </div>
   );
 };
