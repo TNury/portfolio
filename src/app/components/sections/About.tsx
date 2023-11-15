@@ -44,15 +44,14 @@ export const About = () => {
           </div>
         </div>
         <div className='flex w-full items-center justify-center md:w-1/2'>
-          <div className='border-2 group relative w-full max-w-sm border-accents-2'>
+          <div className='border-2 group w-full max-w-sm border-accents-2'>
             <Image
               src='/assets/media/jpg/profile.JPG'
               width={1600}
               height={1600}
-              className='h-auto w-full object-cover grayscale group-hover:grayscale-0'
+              className='h-auto w-full object-cover'
               alt='profile'
             />
-            <div className='bg-accents-2-opaque absolute inset-0 z-10 group-hover:opacity-0' />
           </div>
         </div>
       </div>
