@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 import { ExternalLink } from '@portfolio/components/ui/ExternalLink';
 import { Technology } from '@portfolio/components/ui/Technology';
+import { ProjectMedia } from '@portfolio/components/ui/project/ProjectMedia';
 
 import { ProjectProps } from '@portfolio/types/project.types';
 
@@ -21,34 +22,7 @@ export const ProjectBox: React.FC<ProjectBoxProps> = ({
         {projectProps.name}
       </h3>
       <div className='flex w-full flex-col items-center gap-16 md:grid md:grid-cols-2 md:items-start'>
-        <Image
-          src='assets/media/svg/smartphone.svg'
-          alt='project_icon'
-          width={250}
-          height={520}
-          className='h-auto w-[250px] sm:hidden'
-        />
-        <Image
-          src='assets/media/svg/tablet.svg'
-          alt='project_icon'
-          width={500}
-          height={600}
-          className='hidden h-auto w-[500px] sm:block md:hidden'
-        />
-        <Image
-          src='assets/media/svg/laptop.svg'
-          alt='project_icon'
-          width={650}
-          height={450}
-          className='hidden h-auto w-full md:block lg:hidden'
-        />
-        <Image
-          src='assets/media/svg/desktop.svg'
-          alt='project_icon'
-          width={650}
-          height={450}
-          className='hidden h-auto w-full lg:block'
-        />
+        <ProjectMedia projectMedia={projectProps.media} />
         <div
           data-is-even={parity === 'even'}
           className='flex flex-col gap-8 md:h-full md:justify-between md:data-[is-even="false"]:row-span-full'>
