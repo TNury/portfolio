@@ -10,3 +10,16 @@ import { type ClassValue, clsx } from 'clsx';
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
+
+/**
+ * Determines if a given number is odd or even.
+ * @param number - The number to check.
+ * @returns 'odd' if the number is odd, 'even' if the number is even.
+ */
+export function isOddOrEven(number: number): 'odd' | 'even' {
+  if (number % 2 === 0) {
+    return 'even';
+  } else {
+    return 'odd';
+  }
+}
