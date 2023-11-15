@@ -23,7 +23,7 @@ export const Banner = () => {
       <div className='absolute left-0 -z-10 h-[90vh] w-[90vh] animate-spin-slow sm:left-[15vh] md:-right-[30vh] md:left-auto md:top-0 md:h-[175vh] md:w-[175vh]'>
         <Image
           alt='react_icon'
-          src='assets/media/svg/react_icon.svg'
+          src='/assets/media/svg/react_icon.svg'
           width={1024}
           height={1024}
           className='h-full w-full'

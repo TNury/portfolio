@@ -17,28 +17,28 @@ export const WhatIDo = () => {
           </p>
           <div className='flex w-full flex-col items-center gap-28'>
             <Image
-              src='assets/media/svg/desktop.svg'
+              src='/assets/media/svg/desktop.svg'
               alt='desktop_icon'
               width={481}
               height={367}
               className='h-auto w-[300px] sm:h-[350px] sm:w-auto'
             />
             <Image
-              src='assets/media/svg/laptop.svg'
+              src='/assets/media/svg/laptop.svg'
               alt='laptop_icon'
               width={535}
               height={367}
               className='h-auto w-[250px] sm:h-[300px] sm:w-auto'
             />
             <Image
-              src='assets/media/svg/tablet.svg'
+              src='/assets/media/svg/tablet.svg'
               alt='tablet_icon'
               width={278}
               height={367}
               className='h-auto w-[150px] sm:h-[250px] sm:w-auto'
             />
             <Image
-              src='assets/media/svg/smartphone.svg'
+              src='/assets/media/svg/smartphone.svg'
               alt='phone_icon'
               width={175}
               height={367}
@@ -74,28 +74,28 @@ export const WhatIDo = () => {
         </div>
         <div className='flex w-1/2 flex-col items-center gap-28'>
           <Image
-            src='assets/media/svg/desktop.svg'
+            src='/assets/media/svg/desktop.svg'
             alt='desktop_icon'
             width={481}
             height={367}
             className='h-auto w-[300px] sm:h-[350px] sm:w-auto'
           />
           <Image
-            src='assets/media/svg/laptop.svg'
+            src='/assets/media/svg/laptop.svg'
             alt='laptop_icon'
             width={535}
             height={367}
             className='h-auto w-[250px] sm:h-[300px] sm:w-auto'
           />
           <Image
-            src='assets/media/svg/tablet.svg'
+            src='/assets/media/svg/tablet.svg'
             alt='tablet_icon'
             width={278}
             height={367}
             className='h-auto w-[150px] sm:h-[250px] sm:w-auto'
           />
           <Image
-            src='assets/media/svg/smartphone.svg'
+            src='/assets/media/svg/smartphone.svg'
             alt='phone_icon'
             width={175}
             height={367}
