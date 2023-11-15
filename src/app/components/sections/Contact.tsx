@@ -8,13 +8,13 @@ import { Section } from '@portfolio/components/ui/Section';
 export const Contact = () => {
   return (
     <Section className='flex flex-col items-center gap-20 text-center'>
-      <h2 className='text-4xl font-bold text-text-2'>Contato.</h2>
+      <h2 className='text-4xl font-bold text-text-2 sm:text-5xl'>Contato.</h2>
       <div className='flex flex-col gap-8'>
-        <p className='text-lg text-text-1'>
+        <p className='text-lg text-text-1 sm:text-xl sm:max-w-xl'>
           Lorem ipsum dolor sit amet consectetur. Vulputate augue at ultrices
           mauris convallis interdum tincidunt. Sed eu malesuada pellentesque ut.
         </p>
-        <div className='flex w-full justify-center gap-8'>
+        <div className='flex w-full justify-center gap-8 sm:hidden'>
           <a
             href='https://www.linkedin.com/in/yuri-souza-b26bb3180/'
             target='_blank'>
