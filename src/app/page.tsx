@@ -7,7 +7,7 @@ import { ContactBar } from '@portfolio/components/ui/ContactBar';
 
 export default function Home() {
   return (
-    <main className='flex flex-col items-center overflow-x-hidden'>
+    <main className='flex flex-col items-center overflow-x-clip'>
       <Banner />
       <ContactBar />
       <About />
