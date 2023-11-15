@@ -7,8 +7,8 @@ export const About = () => {
   return (
     <Section className='flex flex-col gap-20'>
       <h2 className='text-4xl font-bold text-text-2 sm:text-5xl'>Sobre mim.</h2>
-      <div className='flex flex-col gap-16'>
-        <div className='flex flex-col gap-8'>
+      <div className='flex flex-col gap-16 md:flex-row md:items-start'>
+        <div className='flex flex-col gap-8 md:w-1/2'>
           <div className='flex flex-col gap-4'>
             <p className='text-lg text-text-1 sm:text-xl'>
               Lorem ipsum dolor sit amet consectetur. Vulputate augue at
@@ -43,7 +43,7 @@ export const About = () => {
             </div>
           </div>
         </div>
-        <div className='flex w-full items-center justify-center'>
+        <div className='flex w-full items-center justify-center md:w-1/2'>
           <div className='border-2 group relative w-full max-w-sm border-accents-2'>
             <Image
               src='/assets/media/jpg/profile.JPG'
