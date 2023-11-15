@@ -5,7 +5,7 @@ import { cn } from '@portfolio/lib/lib';
 import { type VariantProps, cva } from 'class-variance-authority';
 
 const buttonVariants = cva(
-  'w-fit border border-accents-2 px-6 py-3 text-lg hover:bg-accents-2',
+  'w-fit border border-accents-2 px-6 py-3 text-lg hover:bg-accents-2 sm:text-xl',
   {
     variants: {
       variant: {
