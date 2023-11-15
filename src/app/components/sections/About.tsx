@@ -47,8 +47,8 @@ export const About = () => {
           <div className='border-2 group relative w-full max-w-sm border-accents-2'>
             <Image
               src='/assets/media/jpg/profile.JPG'
-              width={343}
-              height={343}
+              width={1600}
+              height={1600}
               className='h-auto w-full object-cover grayscale group-hover:grayscale-0'
               alt='profile'
             />
