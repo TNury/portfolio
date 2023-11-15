@@ -21,6 +21,7 @@
     "paths": {
       "@portfolio/icons/*": ["src/app/components/ui/icons/*"],
       "@portfolio/components/*": ["src/app/components/*"],
+      "@portfolio/hooks/*": ["src/app/hooks/*"],
       "@portfolio/lib/*": ["src/app/lib/*"],
       "@portfolio/services/*": ["src/services/*"],
       "@portfolio/types/*": ["src/app/types/*"],

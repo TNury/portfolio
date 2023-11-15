@@ -20,6 +20,7 @@ module.exports = {
     '^@portfolio/services',
     '^@portfolio/icons',
     '^@portfolio/components',
+    '^@portfolio/hooks',
     '^@portfolio/actions',
     '^@portfolio/lib',
     '^@portfolio/types',
