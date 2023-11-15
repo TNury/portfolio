@@ -14,7 +14,7 @@ export const ExternalLink: React.FC<ExternalLinkProps> = ({
       className={cn('flex gap-2 text-text-1 hover:text-text-2', className)}
       target='_blank'>
       <ExternalLinkIcon />
-      <p className='text-base'>Visitar</p>
+      <p className='text-base sm:text-lg'>Visitar</p>
     </a>
   );
 };
