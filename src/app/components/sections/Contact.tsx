@@ -14,7 +14,7 @@ export const Contact = () => {
           Lorem ipsum dolor sit amet consectetur. Vulputate augue at ultrices
           mauris convallis interdum tincidunt. Sed eu malesuada pellentesque ut.
         </p>
-        <div className='flex w-full justify-center gap-8 sm:hidden'>
+        <div className='flex w-full justify-center gap-8 md:hidden'>
           <a
             href='https://www.linkedin.com/in/yuri-souza-b26bb3180/'
             target='_blank'>
