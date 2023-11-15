@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { GeistMono } from 'geist/font/mono';
 
 import { Footer } from '@portfolio/components/layout/Footer';
+import { ContactBar } from '@portfolio/components/ui/ContactBar';
 
 import '@portfolio/styles/globals.css';
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={GeistMono.className}>
+        <ContactBar />
         {children}
         <Footer />
       </body>
