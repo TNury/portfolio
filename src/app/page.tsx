@@ -6,7 +6,7 @@ import { WhatIDo } from '@portfolio/components/sections/WhatIDo';
 
 export default function Home() {
   return (
-    <main className=''>
+    <main className='overflow-x-hidden'>
       <Banner />
       <About />
       <WhatIDo />
