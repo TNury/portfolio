@@ -17,7 +17,7 @@ export const EmailIcon: React.FC<IconProps> = (props) => {
         strokeWidth='1.5'
         d='M4.111 4.055h14.611c1.005 0 1.827.9 1.827 2v12c0 1.1-.822 2-1.827 2H4.112c-1.005 0-1.827-.9-1.827-2v-12c0-1.1.822-2 1.826-2z'></path>
       <path
-        stroke='#999'
+        stroke='currentColor'
         strokeLinecap='round'
         strokeLinejoin='round'
         strokeWidth='1.5'
