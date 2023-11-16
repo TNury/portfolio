@@ -30,7 +30,7 @@ export const ContactBar = () => {
 
       return () => window.removeEventListener('scroll', handleScroll);
     }
-  }, []);
+  }, [viewport]);
 
   return (
     <div className='pointer-events-none fixed bottom-0 left-0 right-0 z-10 hidden flex-col items-center gap-8 md:flex'>
