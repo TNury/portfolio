@@ -19,29 +19,29 @@ export const WhatIDo = () => {
             <Image
               src='/assets/media/svg/desktop.svg'
               alt='desktop_icon'
-              width={481}
-              height={367}
+              width={1920}
+              height={1080}
               className='h-auto w-[300px] sm:h-[350px] sm:w-auto'
             />
             <Image
               src='/assets/media/svg/laptop.svg'
               alt='laptop_icon'
-              width={535}
-              height={367}
+              width={1366}
+              height={768}
               className='h-auto w-[250px] sm:h-[300px] sm:w-auto'
             />
             <Image
               src='/assets/media/svg/tablet.svg'
               alt='tablet_icon'
-              width={278}
-              height={367}
+              width={768}
+              height={1024}
               className='h-auto w-[150px] sm:h-[250px] sm:w-auto'
             />
             <Image
               src='/assets/media/svg/smartphone.svg'
               alt='phone_icon'
-              width={175}
-              height={367}
+              width={375}
+              height={812}
               className='h-auto w-[100px] sm:h-[200px] sm:w-auto'
             />
           </div>

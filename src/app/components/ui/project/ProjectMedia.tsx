@@ -28,8 +28,8 @@ export const ProjectMedia: React.FC<ProjectMediaProps> = ({
       <Image
         src='/assets/media/svg/smartphone.svg'
         alt='project_icon'
-        width={250}
-        height={520}
+        width={375}
+        height={812}
         className='h-auto w-[250px] sm:hidden'
       />
       {/* Tablets */}
@@ -43,8 +43,8 @@ export const ProjectMedia: React.FC<ProjectMediaProps> = ({
       <Image
         src='/assets/media/svg/tablet.svg'
         alt='project_icon'
-        width={500}
-        height={600}
+        width={768}
+        height={1024}
         className='hidden h-auto w-[500px] sm:block md:hidden'
       />
       {/* Laptops */}
@@ -58,8 +58,8 @@ export const ProjectMedia: React.FC<ProjectMediaProps> = ({
       <Image
         src='/assets/media/svg/laptop.svg'
         alt='project_icon'
-        width={650}
-        height={450}
+        width={1366}
+        height={768}
         className='hidden h-auto w-full md:block lg:hidden'
       />
       {/* Desktops */}
@@ -73,8 +73,8 @@ export const ProjectMedia: React.FC<ProjectMediaProps> = ({
       <Image
         src='/assets/media/svg/desktop.svg'
         alt='project_icon'
-        width={650}
-        height={450}
+        width={1920}
+        height={1080}
         className='hidden h-auto w-full lg:block'
       />
     </div>

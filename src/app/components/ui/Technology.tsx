@@ -15,6 +15,7 @@ export const Technology: React.FC<TechnologyProps> = ({ name, className }) => {
         src='/assets/media/svg/chevron_right.svg'
         width={24}
         height={24}
+        className='w-fit h-fit'
       />
       <p className='text-base text-text-1 sm:text-lg'>{name}</p>
     </div>
