@@ -5,7 +5,7 @@ import { Section } from '@portfolio/components/ui/Section';
 export const WhatIDo = () => {
   return (
     <>
-      <Section className='flex flex-col gap-20 md:hidden'>
+      <Section id="what_i_do" className='flex flex-col gap-20 md:hidden'>
         <h2 className='text-4xl font-bold text-text-2 sm:text-5xl'>
           O que eu faço.
         </h2>
