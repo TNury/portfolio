@@ -19,7 +19,7 @@ export const ContactBar = () => {
         const scrollPosition = window.scrollY + window.innerHeight;
         const documentHeight = document.body.scrollHeight;
 
-        if (scrollPosition >= documentHeight - 300) {
+        if (scrollPosition >= documentHeight - 100) {
           setOpenContactDetails(true);
         } else {
           setOpenContactDetails(false);
