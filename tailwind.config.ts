@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss';
 
+
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -34,8 +35,8 @@ const config: Config = {
         foreground: '#fff',
 
         'accents-1': '#111',
+        'accents-1-opaque': '#111111CC',
         'accents-2': '#333',
-        'accents-2-opaque': '#33333340',
         'accents-3': '#444',
         'accents-4': '#666',
         'accents-5': '#888',
