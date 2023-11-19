@@ -32,6 +32,7 @@ const config: Config = {
       },
       colors: {
         background: '#000',
+        'background-opaque': '#000000CC',
         foreground: '#fff',
 
         'accents-1': '#111',

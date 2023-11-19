@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useLayoutEffect, useState } from 'react';
 
 export const useViewport = () => {
   const [viewport, setViewport] = useState('');
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const breakpoints = {
       xs: 0,
       sm: 640,

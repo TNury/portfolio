@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { GeistMono } from 'geist/font/mono';
 
 import { Footer } from '@portfolio/components/layout/Footer';
+import { Header } from '@portfolio/components/layout/header/Header';
 
 import '@portfolio/styles/globals.css';
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <link rel='icon' href='/assets/media/ico/favicon.ico' sizes='512x512' />
       </head>
       <body className={GeistMono.className}>
+        <Header />
         {children}
         <Footer />
       </body>
