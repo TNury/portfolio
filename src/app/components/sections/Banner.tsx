@@ -18,10 +18,10 @@ export const Banner = () => {
         </p>
         <div className='flex flex-col gap-4 sm:flex-row'>
           <Link href='#my_work'>
-            <Button className='text-lg sm:text-xl'>Conheça meu trabalho.</Button>
+            <Button className='text-lg sm:text-xl'>Conheça meu trabalho</Button>
           </Link>
           <Link href='#about'>
-            <Button className='text-lg sm:text-xl' variant='secondary'>Mais sobre mim.</Button>
+            <Button className='text-lg sm:text-xl' variant='secondary'>Mais sobre mim</Button>
           </Link>
         </div>
       </div>
