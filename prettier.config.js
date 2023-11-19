@@ -14,6 +14,7 @@ module.exports = {
   arrowParens: 'always',
   importOrder: [
     '^react$',
+    '^react-dom$',
     '^next',
     '<THIRD_PARTY_MODULES>',
     '^clsx$',
