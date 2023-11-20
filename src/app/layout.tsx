@@ -5,6 +5,8 @@ import { GeistMono } from 'geist/font/mono';
 import { Footer } from '@portfolio/components/layout/Footer';
 import { Header } from '@portfolio/components/layout/header/Header';
 
+import { cn } from '@portfolio/lib/lib';
+
 import '@portfolio/styles/globals.css';
 
 export const metadata: Metadata = {
@@ -22,7 +24,7 @@ export default function RootLayout({
       <head>
         <link rel='icon' href='/assets/media/ico/favicon.ico' sizes='512x512' />
       </head>
-      <body className={GeistMono.className}>
+      <body className={cn(GeistMono.className, 'bg-background')}>
         <Header />
         {children}
         <Footer />
