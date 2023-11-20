@@ -50,7 +50,7 @@ export const NavLinks: React.FC<NavLinksProps> = ({
       <li>
         <Link href="/assets/media/pdf/CV_Português.pdf" target='_blank'>
           <Button className='text-base sm:text-lg' size='sm'>
-            Curriculo
+            Currículo
           </Button>
         </Link>
       </li>
