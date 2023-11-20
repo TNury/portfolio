@@ -19,7 +19,7 @@ export const NavLinks: React.FC<NavLinksProps> = ({
         <Link
           href='#about'
           onClick={onLinkClick}
-          className='border-b border-transparent pb-2 text-base text-text-2 hover:border-accents-7 sm:text-lg'>
+          className='border-b border-transparent pb-[10.5px] text-base text-text-2 hover:border-accents-7 sm:text-lg'>
           Sobre
         </Link>
       </li>
@@ -27,7 +27,7 @@ export const NavLinks: React.FC<NavLinksProps> = ({
         <Link
           href='#what_i_do'
           onClick={onLinkClick}
-          className='border-b border-transparent pb-2 text-base text-text-2 hover:border-accents-7 sm:text-lg'>
+          className='border-b border-transparent pb-[10.5px] text-base text-text-2 hover:border-accents-7 sm:text-lg'>
           Serviços
         </Link>
       </li>
@@ -35,7 +35,7 @@ export const NavLinks: React.FC<NavLinksProps> = ({
         <Link
           href='#my_work'
           onClick={onLinkClick}
-          className='border-b border-transparent pb-2 text-base text-text-2 hover:border-accents-7 sm:text-lg'>
+          className='border-b border-transparent pb-[10.5px] text-base text-text-2 hover:border-accents-7 sm:text-lg'>
           Trabalho
         </Link>
       </li>
@@ -43,7 +43,7 @@ export const NavLinks: React.FC<NavLinksProps> = ({
         <Link
           href='#contact'
           onClick={onLinkClick}
-          className='border-b border-transparent pb-2 text-base text-text-2 hover:border-accents-7 sm:text-lg'>
+          className='border-b border-transparent pb-[10.5px] text-base text-text-2 hover:border-accents-7 sm:text-lg'>
           Contato
         </Link>
       </li>
