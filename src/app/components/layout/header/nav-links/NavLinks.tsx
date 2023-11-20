@@ -14,9 +14,7 @@ export const NavLinks: React.FC<NavLinksProps> = ({
   ...restOfProps
 }) => {
   return (
-    <ul
-      className={cn('flex h-full gap-8', className)}
-      {...restOfProps}>
+    <ul className={cn('flex h-full gap-8', className)} {...restOfProps}>
       <li>
         <Link
           href='#about'
@@ -50,9 +48,11 @@ export const NavLinks: React.FC<NavLinksProps> = ({
         </Link>
       </li>
       <li>
-        <Button className='text-base sm:text-lg' size='sm'>
-          Curriculo
-        </Button>
+        <Link href="/assets/media/pdf/CV_Português.pdf" target='_blank'>
+          <Button className='text-base sm:text-lg' size='sm'>
+            Curriculo
+          </Button>
+        </Link>
       </li>
     </ul>
   );
