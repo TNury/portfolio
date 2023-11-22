@@ -7,12 +7,15 @@ import { Section } from '@portfolio/components/ui/Section';
 
 export const Contact = () => {
   return (
-    <Section id="contact" className='flex flex-col items-center gap-20 text-center'>
+    <Section
+      id='contact'
+      className='flex flex-col items-center gap-20 text-center'>
       <h2 className='text-4xl font-bold text-text-2 sm:text-5xl'>Contato.</h2>
       <div className='flex flex-col gap-8'>
-        <p className='text-lg text-text-1 sm:text-xl sm:max-w-xl'>
-          Lorem ipsum dolor sit amet consectetur. Vulputate augue at ultrices
-          mauris convallis interdum tincidunt. Sed eu malesuada pellentesque ut.
+        <p className='text-lg text-text-1 sm:max-w-xl sm:text-xl'>
+          Atualmente estou em busca de uma oportunidade de trabalho como
+          desenvolvedor front-end, caso queira entrar em contato comigo, você
+          pode me encontrar através das minhas redes sociais ou por email/telefone.
         </p>
         <div className='flex w-full justify-center gap-8 md:hidden'>
           <a
