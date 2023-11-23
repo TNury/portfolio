@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 import ReactDOM from 'react-dom';
 
@@ -13,16 +13,23 @@ type DrawerProps = {
 };
 
 export const Drawer: React.FC<DrawerProps> = ({ open, children, onClose }) => {
+  const bodyRef = useRef<HTMLBodyElement>(null);
+
   useEffect(() => {
-    const bodyRef = document.getElementsByTagName('body')[0];
-    if (open) {
-      bodyRef.style.overflow = 'hidden';
+    bodyRef.current = document.getElementsByTagName('body')[0];
+
+    if (open && bodyRef.current) {
+      bodyRef.current.style.overflow = 'hidden';
     }
 
     return () => {
-      bodyRef.style.overflow = 'auto';
+      if (bodyRef.current) {
+        bodyRef.current.style.overflow = 'auto';
+      }
     };
   }, [onClose]);
+
+  if (!bodyRef.current) return null;
 
   return ReactDOM.createPortal(
     <div
@@ -46,6 +53,6 @@ export const Drawer: React.FC<DrawerProps> = ({ open, children, onClose }) => {
         {children}
       </div>
     </div>,
-    document.getElementsByTagName('body')[0]
+    bodyRef.current
   );
 };
