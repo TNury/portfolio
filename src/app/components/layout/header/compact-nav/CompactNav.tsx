@@ -7,7 +7,13 @@ import Image from 'next/image';
 import { NavLinks } from '@portfolio/components/layout/header/nav-links/NavLinks';
 import { Drawer } from '@portfolio/components/ui/Drawer';
 
-export const CompactNav = () => {
+import { LinksProps } from '@portfolio/types/header.types';
+
+type CompactNavProps = {
+  links: LinksProps;
+};
+
+export const CompactNav: React.FC<CompactNavProps> = ({ links }) => {
   const [open, setOpen] = useState<boolean>(false);
 
   return (
@@ -24,6 +30,7 @@ export const CompactNav = () => {
 
       <Drawer open={open} onClose={() => setOpen(false)}>
         <NavLinks
+          links={links}
           onLinkClick={() => setOpen(false)}
           className='flex-col items-center justify-center'
         />

@@ -1,11 +1,40 @@
 import { BannerContentProps } from '@portfolio/types/banner.types';
+import { LinksProps } from '@portfolio/types/header.types';
 import { ProjectProps } from '@portfolio/types/project.types';
 
-export const staticRootBannerProps: BannerContentProps = {
+export const staticRootHeaderData: LinksProps = [
+  {
+    type: 'nav',
+    href: '#sobre',
+    label: 'Sobre',
+  },
+  {
+    type: 'nav',
+    href: '#serviços',
+    label: 'Serviços',
+  },
+  {
+    type: 'nav',
+    href: '#projetos',
+    label: 'Projetos',
+  },
+  {
+    type: 'nav',
+    href: '#contato',
+    label: 'Contato',
+  },
+  {
+    type: 'cv',
+    href: '/assets/media/pdf/CV_Português.pdf',
+    label: 'Currículo',
+  },
+];
+
+export const staticRootBannerData: BannerContentProps = {
   buttonTwoLink: '#sobre',
 };
 
-export const staticComercialBannerProps: BannerContentProps = {
+export const staticComercialBannerData: BannerContentProps = {
   buttonTwoLink: '#serviços',
 };
 export const staticProjects: ProjectProps[] = [
