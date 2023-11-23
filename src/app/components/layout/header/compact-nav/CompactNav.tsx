@@ -11,7 +11,7 @@ export const CompactNav = () => {
   const [open, setOpen] = useState<boolean>(false);
 
   return (
-    <nav className='flex w-full justify-end p-4'>
+    <nav className='flex w-full justify-end p-4 md:hidden'>
       <Image
         onClick={() => setOpen(true)}
         src='/assets/media/svg/menu.svg'
