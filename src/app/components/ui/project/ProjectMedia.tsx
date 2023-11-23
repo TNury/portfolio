@@ -68,7 +68,7 @@ export const ProjectMedia: React.FC<ProjectMediaProps> = ({
         width={1920}
         height={1080}
         alt='image'
-        className='absolute inset-0 hidden h-[78.9%] object-fill lg:block lg:p-[1.4rem]'
+        className='absolute inset-0 hidden h-[78.9%] object-fill lg:block lg:p-[1.38rem]'
       />
       <Image
         src='/assets/media/svg/desktop.svg'
