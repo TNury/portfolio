@@ -5,12 +5,12 @@ import { MyWork } from '@portfolio/components/sections/MyWork';
 import { WhatIDo } from '@portfolio/components/sections/WhatIDo';
 import { ContactBar } from '@portfolio/components/ui/ContactBar';
 
-import { staticRootBannerProps } from '@portfolio/static-data/staticData';
+import { staticRootBannerData } from '@portfolio/static-data/staticData';
 
 export default function Home() {
   return (
     <main className='flex flex-col items-center overflow-x-clip'>
-      <Banner bannerProps={staticRootBannerProps} />
+      <Banner bannerProps={staticRootBannerData} />
       <ContactBar />
       <About />
       <WhatIDo />

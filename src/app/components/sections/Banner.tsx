@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Button } from '@portfolio/components/ui/Button';
 import { Section } from '@portfolio/components/ui/Section';
 
-import { BannerContentProps } from '@portfolio/types/project.types';
+import { BannerContentProps } from '@portfolio/types/banner.types';
 
 type BannerProps = {
   bannerProps: BannerContentProps;
@@ -19,15 +19,16 @@ export const Banner: React.FC<BannerProps> = ({ bannerProps }) => {
           Yuri Souza.
         </h1>
         <p className='text-lg text-text-1 sm:max-w-xl sm:text-xl'>
-          {bannerProps.description}
+          Sou um Desenvolvedor de Software apaixonado por criar experiências
+          digitais envolventes e funcionais.
         </p>
         <div className='flex flex-col gap-4 sm:flex-row'>
           <Link href='#my_work'>
             <Button className='text-lg sm:text-xl'>Conheça meu trabalho</Button>
           </Link>
-          <Link href={bannerProps.button_two.link}>
+          <Link href={bannerProps.buttonTwoLink}>
             <Button className='text-lg sm:text-xl' variant='secondary'>
-              {bannerProps.button_two.label}
+              Mais Sobre Mim
             </Button>
           </Link>
         </div>
