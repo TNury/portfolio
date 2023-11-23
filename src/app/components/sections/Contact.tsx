@@ -8,7 +8,7 @@ import { Section } from '@portfolio/components/ui/Section';
 export const Contact = () => {
   return (
     <Section
-      id='contact'
+      id='contato'
       className='flex flex-col items-center gap-20 text-center'>
       <h2 className='text-4xl font-bold text-text-2 sm:text-5xl'>Contato.</h2>
       <div className='flex flex-col gap-8'>

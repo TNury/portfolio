@@ -5,7 +5,7 @@ import { Technology } from '@portfolio/components/ui/Technology';
 
 export const About = () => {
   return (
-    <Section id='about' className='flex flex-col gap-20'>
+    <Section id='sobre' className='flex flex-col gap-20'>
       <h2 className='text-4xl font-bold text-text-2 sm:text-5xl'>Sobre mim.</h2>
       <div className='flex flex-col gap-16 md:flex-row md:items-start'>
         <div className='flex flex-col gap-8 md:w-1/2'>

@@ -17,7 +17,7 @@ export const NavLinks: React.FC<NavLinksProps> = ({
     <ul className={cn('flex h-full gap-8', className)} {...restOfProps}>
       <li>
         <Link
-          href='#about'
+          href='#sobre'
           onClick={onLinkClick}
           className='border-b border-transparent pb-[10.5px] text-base text-text-2 hover:border-accents-7 sm:text-lg'>
           Sobre
@@ -25,7 +25,7 @@ export const NavLinks: React.FC<NavLinksProps> = ({
       </li>
       <li>
         <Link
-          href='#what_i_do'
+          href='#serviços'
           onClick={onLinkClick}
           className='border-b border-transparent pb-[10.5px] text-base text-text-2 hover:border-accents-7 sm:text-lg'>
           Serviços
@@ -33,7 +33,7 @@ export const NavLinks: React.FC<NavLinksProps> = ({
       </li>
       <li>
         <Link
-          href='#my_work'
+          href='#trabalho'
           onClick={onLinkClick}
           className='border-b border-transparent pb-[10.5px] text-base text-text-2 hover:border-accents-7 sm:text-lg'>
           Trabalho
@@ -41,7 +41,7 @@ export const NavLinks: React.FC<NavLinksProps> = ({
       </li>
       <li>
         <Link
-          href='#contact'
+          href='#contato'
           onClick={onLinkClick}
           className='border-b border-transparent pb-[10.5px] text-base text-text-2 hover:border-accents-7 sm:text-lg'>
           Contato

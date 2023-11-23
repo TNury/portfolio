@@ -7,7 +7,7 @@ import { staticProjects } from 'src/app/static-data/staticData';
 
 export const MyWork = () => {
   return (
-    <Section id="my_work" className='flex flex-col gap-20'>
+    <Section id="trabalho" className='flex flex-col gap-20'>
       <h2 className='text-center text-4xl font-bold text-text-2 sm:text-5xl'>
         Meu trabalho.
       </h2>
