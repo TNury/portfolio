@@ -1,5 +1,6 @@
 import { ProjectProps } from '@portfolio/types/project.types';
 
+
 export const staticProjects: ProjectProps[] = [
   {
     name: 'Petshop by Karhard.',
@@ -58,7 +59,7 @@ export const staticProjects: ProjectProps[] = [
   {
     name: 'SantéCaps.',
     description:
-      '"SantéCaps" é uma empresa Brasileira de suplementos que tem como alvo mulheres com deficiência de vitaminas que afetam a beleza.',
+      'SantéCaps é uma empresa brasileira especializada em suplementos voltados para mulheres com deficiências vitamínicas que impactam a beleza. Seu site oferece informações detalhadas sobre seus produtos e funciona como um eficiente mecanismo de direcionamento de vendas para clientes em potencial.',
     technologies: ['HTML', 'JavaScript', 'CSS', 'TailwindCSS'],
     productionUrl: 'https://santecaps.com.br/',
     media: {
