@@ -24,6 +24,7 @@ module.exports = {
     '^@portfolio/hooks',
     '^@portfolio/actions',
     '^@portfolio/lib',
+    '^@portfolio/static-data',
     '^@portfolio/types',
     '^@portfolio/styles',
     '^[src/]',

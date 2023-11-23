@@ -19,6 +19,7 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@portfolio/static-data/*": ["src/app/static-data/*"],
       "@portfolio/icons/*": ["src/app/components/ui/icons/*"],
       "@portfolio/components/*": ["src/app/components/*"],
       "@portfolio/hooks/*": ["src/app/hooks/*"],

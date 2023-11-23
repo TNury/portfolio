@@ -10,7 +10,7 @@ export const About = () => {
       <div className='flex flex-col gap-16 md:flex-row md:items-start'>
         <div className='flex flex-col gap-8 md:w-1/2'>
           <p className='text-lg text-text-1 sm:text-xl'>
-            Olá! Meu nome é Yuri. Sou um desenvolvedor de software que no
+            Olá! Meu nome é Yuri e eu sou um desenvolvedor de software que no
             momento atua como freelancer. Tenho experiência com desenvolvimento
             web e mobile utilizando as tecnologias listadas abaixo.
           </p>

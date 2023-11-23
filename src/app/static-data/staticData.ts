@@ -1,5 +1,16 @@
-import { ProjectProps } from '@portfolio/types/project.types';
+import {
+  BannerContentProps,
+  ProjectProps,
+} from '@portfolio/types/project.types';
 
+export const staticRootBannerProps: BannerContentProps = {
+  description:
+    'Sou um Desenvolvedor de Software apaixonado por criar experiências digitais envolventes e funcionais.',
+  button_two: {
+    link: '#about',
+    label: 'Mais Sobre Mim',
+  },
+};
 
 export const staticProjects: ProjectProps[] = [
   {
