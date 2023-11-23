@@ -9,21 +9,11 @@ export const About = () => {
       <h2 className='text-4xl font-bold text-text-2 sm:text-5xl'>Sobre mim.</h2>
       <div className='flex flex-col gap-16 md:flex-row md:items-start'>
         <div className='flex flex-col gap-8 md:w-1/2'>
-          <div className='flex flex-col gap-4'>
-            <p className='text-lg text-text-1 sm:text-xl'>
-              Lorem ipsum dolor sit amet consectetur. Vulputate augue at
-              ultrices mauris convallis interdum tincidunt. Sed eu malesuada
-              pellentesque ut.
-            </p>
-            <p className='text-lg text-text-1 sm:text-xl'>
-              Lorem ipsum dolor sit amet consectetur. Vulputate augue at
-              ultrices mauris convallis interdum tincidunt. Sed eu malesuada
-              pellentesque ut. Ac vestibulum eu enim mi quis sagittis egestas.
-            </p>
-            <p className='text-lg text-text-1 sm:text-xl'>
-              Gravida quis arcu metus lacus tristique amet augue.
-            </p>
-          </div>
+          <p className='text-lg text-text-1 sm:text-xl'>
+            Olá! Meu nome é Yuri. Sou um desenvolvedor de software que no
+            momento atua como freelancer. Tenho experiência com desenvolvimento
+            web e mobile utilizando as tecnologias listadas abaixo.
+          </p>
           <div className='flex flex-col gap-2'>
             <h3 className='text-lg font-bold text-text-2 sm:text-xl-header'>
               Web
