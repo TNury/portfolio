@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     url: 'https:/yuri-souza.stellarwind.com.br/',
     images: [
       {
-        url: '/assets/media/jpg/presentation.jpg',
+        url: '/assets/media/jpg/presentation_2x.jpg',
         width: 1200,
         height: 630,
         alt: 'Yuri Souza',
