@@ -5,9 +5,10 @@ import { useEffect, useState } from 'react';
 import { EmailIcon } from '@portfolio/icons/EmailIcon';
 import { GithubIcon } from '@portfolio/icons/GithubIcon';
 import { LinkedInIcon } from '@portfolio/icons/LinkedInIcon';
-import { PhoneIcon } from '@portfolio/icons/PhoneIcon';
 
 import { useViewport } from '@portfolio/hooks/useViewport';
+
+import { WhatsappIcon } from './icons/WhatsappIcon';
 
 export const ContactBar = () => {
   const viewport = useViewport();
@@ -71,7 +72,7 @@ export const ContactBar = () => {
               </span>
             </div>
 
-            <PhoneIcon className='group-hover:text-text-2 md:group-data-[force-show="true"]:text-text-2' />
+            <WhatsappIcon className='group-hover:text-text-2 md:group-data-[force-show="true"]:text-text-2' />
           </a>
           <a
             href='mailto:yurdesou@gmail.com'
