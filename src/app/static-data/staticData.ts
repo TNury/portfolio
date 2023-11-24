@@ -87,7 +87,7 @@ export const staticProjects: ProjectProps[] = [
   {
     name: 'SantéCaps.',
     description:
-      'SantéCaps é uma empresa brasileira especializada em suplementos voltados para mulheres com deficiências vitamínicas que impactam a beleza. Seu site oferece informações detalhadas sobre seus produtos e funciona como um eficiente mecanismo de direcionamento de vendas para clientes em potencial.',
+      '"SantéCaps" é uma empresa brasileira especializada em suplementos voltados para mulheres com deficiências vitamínicas que impactam a beleza. Seu site oferece informações detalhadas sobre seus produtos e funciona como um eficiente mecanismo de direcionamento de vendas para clientes em potencial.',
     technologies: ['HTML', 'JavaScript', 'CSS', 'TailwindCSS'],
     productionUrl: 'https://santecaps.com.br/',
     media: {
@@ -100,7 +100,7 @@ export const staticProjects: ProjectProps[] = [
   {
     name: 'UR-Skis.',
     description:
-      '"UR-Skis" é um site que demonstra 3 designs excepcionais de esquis feitos a mão por uma fabricante renomada. O site tem um design extremamente minimalista e elegante.',
+      '"UR-Skis" é um site que demonstra 3 designs excepcionais de esquis feitos a mão por uma renomada fabricante Suíça. O site tem um design extremamente minimalista e elegante.',
     technologies: ['Typescript', 'Next.js 13', 'TailwindCSS'],
     productionUrl: 'https://ur-skis.ch/',
     media: {
@@ -126,7 +126,7 @@ export const staticProjects: ProjectProps[] = [
   {
     name: 'Ostheopathie Meilen.',
     description:
-      '"Ostheopathie Meilen" é uma clínica de osteopatia situada na Suíça que oferece uma ampla gama de serviços de saúde. O site deles tem como objetivo apresentar seus serviços com um design artístico e atraente.',
+      '"Ostheopathie Meilen" é uma clínica de osteopatia situada na Suíça que oferece uma ampla gama de serviços de saúde. O site deles tem como objetivo apresentar seus serviços seguindo design artístico e atraente.',
     technologies: ['Javascript', 'React', 'Redux', 'JSS', 'MUI v5'],
     productionUrl: 'https://www.osteopathie-meilen.ch/',
     media: {

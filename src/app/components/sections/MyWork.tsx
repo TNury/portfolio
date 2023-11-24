@@ -15,7 +15,7 @@ export const MyWork = () => {
         <p className='text-lg text-text-1 sm:max-w-xl sm:text-xl md:text-center'>
           Na minha trajetória como desenvolvedor, trabalhei no desenvolvimento
           de diversos projetos. Listados abaixo estão alguns dos meus trabalhos
-          mais notáveis.
+          notáveis.
         </p>
         <div className='flex flex-col gap-28 w-full'>
           {staticProjects.map((project, index) => (

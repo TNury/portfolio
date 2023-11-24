@@ -14,7 +14,7 @@ export const Contact = () => {
       <div className='flex flex-col gap-8'>
         <p className='text-lg text-text-1 sm:max-w-xl sm:text-xl'>
           Atualmente estou em busca de uma oportunidade de trabalho como
-          desenvolvedor front-end, caso queira entrar em contato comigo, você
+          Desenvolvedor Front-end. Caso queira entrar em contato comigo, você
           pode me encontrar através das minhas redes sociais ou por email/telefone.
         </p>
         <div className='flex w-full justify-center gap-8 md:hidden'>

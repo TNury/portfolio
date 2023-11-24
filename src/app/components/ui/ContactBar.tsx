@@ -84,7 +84,7 @@ export const ContactBar = () => {
             </div>
             <EmailIcon className='group-hover:text-text-2 md:group-data-[force-show="true"]:text-text-2' />
           </a>
-          <div className='h-36'>
+          <div className='h-44'>
             <div className='h-full w-[1.5px] bg-accents-2' />
           </div>
         </div>
