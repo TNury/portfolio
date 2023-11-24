@@ -7,6 +7,8 @@ import { Header } from '@portfolio/components/layout/header/Header';
 
 import { cn } from '@portfolio/lib/lib';
 
+import { staticRootHeaderData } from '@portfolio/static-data/staticData';
+
 import '@portfolio/styles/globals.css';
 
 export const metadata: Metadata = {
@@ -20,12 +22,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
+    <html lang='pt-br'>
       <head>
         <link rel='icon' href='/assets/media/ico/favicon.ico' sizes='512x512' />
       </head>
       <body className={cn(GeistMono.className, 'bg-background')}>
-        <Header />
+        <Header links={staticRootHeaderData} />
         {children}
         <Footer />
       </body>
