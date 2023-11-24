@@ -44,7 +44,7 @@ export const ContactInfo: React.FC<ContactInfoProps> = ({
           <a href='https://github.com/TNury/' target='_blank'>
             <GithubIcon className='hover:text-text-2' />
           </a>
-          <a href='mailto:example@example.com'>
+          <a href='mailto:yurdesou@gmail.com'>
             <EmailIcon className='hover:text-text-2' />
           </a>
         </div>
