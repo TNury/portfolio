@@ -5,9 +5,6 @@ export const Footer = () => {
         Projetado e construído por{' '}
         <span className='text-text-2'>Yuri Souza</span>.
       </p>
-      <p className='text-center text-lg text-text-1 sm:text-xl'>
-        © {new Date().getFullYear()}.
-      </p>
     </footer>
   );
 };
