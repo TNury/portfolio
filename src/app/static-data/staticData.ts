@@ -1,8 +1,7 @@
-import { BannerContentProps } from '@portfolio/types/banner.types';
 import { LinksProps } from '@portfolio/types/header.types';
 import { ProjectProps } from '@portfolio/types/project.types';
 
-export const staticRootHeaderData: LinksProps = [
+export const staticHeaderData: LinksProps = [
   {
     type: 'nav',
     href: '#sobre',
@@ -30,13 +29,6 @@ export const staticRootHeaderData: LinksProps = [
   },
 ];
 
-export const staticRootBannerData: BannerContentProps = {
-  buttonTwoLink: '#sobre',
-};
-
-export const staticComercialBannerData: BannerContentProps = {
-  buttonTwoLink: '#serviços',
-};
 export const staticProjects: ProjectProps[] = [
   {
     name: 'Petshop by Karhard.',

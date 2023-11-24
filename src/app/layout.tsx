@@ -7,7 +7,7 @@ import { Header } from '@portfolio/components/layout/header/Header';
 
 import { cn } from '@portfolio/lib/lib';
 
-import { staticRootHeaderData } from '@portfolio/static-data/staticData';
+import { staticHeaderData } from '@portfolio/static-data/staticData';
 
 import '@portfolio/styles/globals.css';
 
@@ -27,7 +27,7 @@ export default function RootLayout({
         <link rel='icon' href='/assets/media/ico/favicon.ico' sizes='512x512' />
       </head>
       <body className={cn(GeistMono.className, 'bg-background')}>
-        <Header links={staticRootHeaderData} />
+        <Header links={staticHeaderData} />
         {children}
         <Footer />
       </body>

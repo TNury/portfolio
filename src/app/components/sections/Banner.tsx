@@ -4,13 +4,7 @@ import Link from 'next/link';
 import { Button } from '@portfolio/components/ui/Button';
 import { Section } from '@portfolio/components/ui/Section';
 
-import { BannerContentProps } from '@portfolio/types/banner.types';
-
-type BannerProps = {
-  bannerProps: BannerContentProps;
-};
-
-export const Banner: React.FC<BannerProps> = ({ bannerProps }) => {
+export const Banner = () => {
   return (
     <Section className='relative flex min-h-screen items-center'>
       <div className='flex flex-col gap-8'>
@@ -26,7 +20,7 @@ export const Banner: React.FC<BannerProps> = ({ bannerProps }) => {
           <Link href='#trabalho'>
             <Button className='text-lg sm:text-xl'>Conheça meu trabalho</Button>
           </Link>
-          <Link href={bannerProps.buttonTwoLink}>
+          <Link href='#sobre'>
             <Button className='text-lg sm:text-xl' variant='secondary'>
               Mais Sobre Mim
             </Button>
