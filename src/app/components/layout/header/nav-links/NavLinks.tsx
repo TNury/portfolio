@@ -18,7 +18,7 @@ export const NavLinks: React.FC<NavLinksProps> = ({
   ...restOfProps
 }) => {
   return (
-    <ul className={cn('flex h-full gap-8', className)} {...restOfProps}>
+    <ul className={cn('flex gap-8', className)} {...restOfProps}>
       {links.map(({ type, href, label }, index) => (
         <li key={index}>
           <Link

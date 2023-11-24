@@ -9,7 +9,7 @@ type ExtendedNavProps = {
 export const ExtendedNav: React.FC<ExtendedNavProps> = ({ links }) => {
   return (
     <nav className='hidden h-full w-full max-w-screen-lg items-center justify-end px-16 md:flex'>
-      <NavLinks className='items-center' links={links} />
+      <NavLinks className='items-center h-full' links={links} />
     </nav>
   );
 };
