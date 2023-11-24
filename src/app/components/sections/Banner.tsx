@@ -23,7 +23,7 @@ export const Banner: React.FC<BannerProps> = ({ bannerProps }) => {
           digitais envolventes e funcionais.
         </p>
         <div className='flex flex-col gap-4 sm:flex-row'>
-          <Link href='#my_work'>
+          <Link href='#trabalho'>
             <Button className='text-lg sm:text-xl'>Conheça meu trabalho</Button>
           </Link>
           <Link href={bannerProps.buttonTwoLink}>
