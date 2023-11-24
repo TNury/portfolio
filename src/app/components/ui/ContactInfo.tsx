@@ -22,7 +22,9 @@ export const ContactInfo: React.FC<ContactInfoProps> = ({
         <h3 className='text-lg font-bold text-text-2 sm:text-xl-header'>
           Whatsapp
         </h3>
-        <a href='tel:+5583981264559' className='flex items-center gap-2'>
+        <a
+          href='https://api.whatsapp.com/send?phone=5583981264559&text=Ol%C3%A1,%20estava%20navegando%20pelo%20seu%20website%20em%20me%20interessei%20no%20seu%20trabalho.'
+          className='flex items-center gap-2'>
           <WhatsappIcon className='hover:text-text-2' />
           <span className='text-base text-text-1 sm:text-lg'>
             +55 (83) 98126-4559
