@@ -14,7 +14,7 @@ export const staticHeaderData: LinksProps = [
   },
   {
     type: 'nav',
-    href: '#projetos',
+    href: '#trabalho',
     label: 'Projetos',
   },
   {
