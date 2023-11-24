@@ -63,7 +63,7 @@ export const ContactBar = () => {
             <GithubIcon className='group-hover:text-text-2 md:group-data-[force-show="true"]:text-text-2' />
           </a>
           <a
-            href='https://api.whatsapp.com/send?phone=5583981264559&text=Ol%C3%A1,%20estava%20navegando%20pelo%20seu%20website%20em%20me%20interessei%20no%20seu%20trabalho.'
+            href='https://api.whatsapp.com/send?phone=5583981264559&text=Ol%C3%A1,%20estava%20navegando%20pelo%20seu%20website%20e%20me%20interessei%20no%20seu%20trabalho.'
             target='_blank'
             data-force-show={openContactDetails}
             className='group relative flex items-center'>
