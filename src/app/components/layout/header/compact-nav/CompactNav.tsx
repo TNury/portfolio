@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 import { NavLinks } from '@portfolio/components/layout/header/nav-links/NavLinks';
+import { ContactInfo } from '@portfolio/components/ui/ContactInfo';
 import { Drawer } from '@portfolio/components/ui/Drawer';
 
 import { LinksProps } from '@portfolio/types/header.types';
@@ -29,11 +30,14 @@ export const CompactNav: React.FC<CompactNavProps> = ({ links }) => {
       />
 
       <Drawer open={open} onClose={() => setOpen(false)}>
-        <NavLinks
-          links={links}
-          onLinkClick={() => setOpen(false)}
-          className='flex-col items-center justify-center'
-        />
+        <div className='flex h-full items-center flex-col justify-center relative'>
+          <NavLinks
+            links={links}
+            onLinkClick={() => setOpen(false)}
+            className='flex-col items-center justify-center absolute'
+          />
+          <ContactInfo className='mt-auto' />
+        </div>
       </Drawer>
     </nav>
   );
