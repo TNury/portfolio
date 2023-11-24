@@ -12,8 +12,27 @@ import { staticHeaderData } from '@portfolio/static-data/staticData';
 import '@portfolio/styles/globals.css';
 
 export const metadata: Metadata = {
-  title: 'Yuri Souza',
-  description: 'This is my personal website.',
+  metadataBase: new URL('https://yuri-souza.stellarwind.com.br/'),
+  title: 'Yuri Souza.',
+  description:
+    'Olá, meu nome é Yuri Souza. Sou um Desenvolvedor de Software apaixonado por criar experiências digitais envolventes e funcionais.',
+  openGraph: {
+    type: 'website',
+    title: 'Yuri Souza.',
+    description:
+      'Olá, meu nome é Yuri Souza. Sou um Desenvolvedor de Software apaixonado por criar experiências digitais envolventes e funcionais.',
+    siteName: 'Yuri Souza.',
+    locale: 'pt_BR',
+    url: 'https:/yuri-souza.stellarwind.com.br/',
+    images: [
+      {
+        url: '/assets/media/jpg/presentation.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Yuri Souza',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
