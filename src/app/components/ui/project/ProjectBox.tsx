@@ -19,7 +19,9 @@ export const ProjectBox: React.FC<ProjectBoxProps> = ({
         {projectProps.name}
       </h3>
       <div className='flex w-full flex-col items-center gap-16 md:grid md:grid-cols-2 md:items-start'>
-        <ProjectMedia projectMedia={projectProps.media} />
+        <a href={projectProps.productionUrl} target='_blank' className='full h-full'>
+          <ProjectMedia projectMedia={projectProps.media} />
+        </a>
         <div className='flex flex-col gap-8 md:h-full md:justify-between md:group-data-[parity="odd"]:row-span-full'>
           <p className='text-base text-text-1 sm:text-lg md:hidden'>
             {projectProps.description}
