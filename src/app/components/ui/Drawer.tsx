@@ -40,7 +40,7 @@ export const Drawer: React.FC<DrawerProps> = ({ open, children, onClose }) => {
         className='absolute inset-0 bg-accents-1-opaque backdrop-blur-sm transition-all duration-75 group-data-[open="false"]:opacity-0'
         role='button'
       />
-      <div className='relative h-full w-3/5 min-w-min bg-black p-4 transition-all duration-75 group-data-[open="false"]:translate-x-full'>
+      <div className='relative h-full w-3/5 min-w-fit bg-black p-4 transition-all duration-75 group-data-[open="false"]:translate-x-full'>
         <Image
           onClick={onClose}
           src='/assets/media/svg/close.svg'
@@ -48,7 +48,7 @@ export const Drawer: React.FC<DrawerProps> = ({ open, children, onClose }) => {
           role='button'
           width={32}
           height={32}
-          className='absolute right-4 top-4 h-10 w-10'
+          className='absolute right-4 top-4 h-10 w-10 z-20'
         />
         {children}
       </div>
